@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+  .nav__links { display: none; }
+  .nav__burger { display: flex; }
+  .nav__cta.desktop-only { display: none; }
+}
+
+@media (min-width: 1025px) {
+  .nav-overlay { display: none; }
+}
+
+@media (max-width: 900px) {
+  .footer__bottom { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 640px) {
+  .hero__buttons .btn { padding: 14px 24px; font-size: 0.88rem; }
+  .section-head { margin-bottom: 40px; }
+  .visit__info { padding: 32px 24px; }
+}

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Street Cafe — Coffee, Brunch & Wellness in East Legon</title>
+<meta name="description" content="Aura Street Cafe is an Asian street-style cafe in East Legon, Accra, serving handcrafted coffee, ceremonial matcha, fresh juices, smoothies, sandwiches and brunch.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Aura Street Cafe — East Legon">
+<meta property="og:description" content="Coffee. Brunch. Wellness. An Asian street-style cafe in East Legon, Accra.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aura Street Cafe — East Legon">
+<meta name="twitter:description" content="Coffee. Brunch. Wellness. An Asian street-style cafe in East Legon, Accra.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Aura Street Cafe",
+  "servesCuisine": "Asian Street-Style Cafe",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "East Legon, Accra",
+    "addressCountry": "GH"
+  },
+  "sameAs": ["https://instagram.com/aurastreetcafe", "https://tiktok.com/@aurastreetcafe"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/typography.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="paper-texture"></div>
+
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <div class="brand-logo">
+    <span class="brand-logo__word">aura</span>
+    <span class="brand-logo__tag">street cafe</span>
+  </div>
+  <div class="preloader__bar"><span></span></div>
+</div>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor"></div>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="nav">
+  <a href="#home" class="nav__logo brand-logo">
+    <span class="brand-logo__word">aura</span>
+    <span class="brand-logo__tag">street cafe</span>
+  </a>
+  <div class="nav__links">
+    <a href="#home" class="nav__link">Home</a>
+    <a href="#menu" class="nav__link">Menu</a>
+    <a href="#wellness" class="nav__link">Wellness</a>
+    <a href="#gallery" class="nav__link">Gallery</a>
+    <a href="#visit" class="nav__link">Visit</a>
+    <a href="#contact" class="nav__link">Contact</a>
+  </div>
+  <a href="#visit" class="btn btn-primary nav__cta desktop-only magnetic">Visit Today</a>
+  <button class="nav__burger" id="burger" aria-label="Open menu">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <a href="#home" class="nav-overlay__link">Home</a>
+  <a href="#menu" class="nav-overlay__link">Menu</a>
+  <a href="#wellness" class="nav-overlay__link">Wellness</a>
+  <a href="#gallery" class="nav-overlay__link">Gallery</a>
+  <a href="#visit" class="nav-overlay__link">Visit</a>
+  <a href="#contact" class="nav-overlay__link">Contact</a>
+  <a href="#visit" class="btn btn-primary">Visit Today</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__media" data-parallax>
+      <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1800&q=80" alt="Sunlit cafe morning with coffee and plants">
+    </div>
+
+    <div class="hero__float-card hero__float-card--1 reveal" data-reveal>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+      <span>Fresh matcha, daily</span>
+    </div>
+    <div class="hero__float-card hero__float-card--2 reveal" data-reveal>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M6.34 6.34l2.83 2.83M2 12h4M6.34 17.66l2.83-2.83M12 22v-4M17.66 17.66l-2.83-2.83M22 12h-4M17.66 6.34l-2.83 2.83"/></svg>
+      <span>Slow mornings</span>
+    </div>
+
+    <div class="hero__content">
+      <h1 class="hero__headline">Coffee.<br>Brunch.<br>Wellness.</h1>
+      <div class="hero__sub">
+        <p>A calm corner in East Legon serving handcrafted coffee, ceremonial matcha, fresh juices, smoothies, sandwiches and brunch inspired by Asian cafe culture.</p>
+        <div class="hero__buttons">
+          <a href="#menu" class="btn btn-light magnetic">Explore Menu</a>
+          <a href="#visit" class="btn btn-outline magnetic" style="color:#FAF8F4;border-color:rgba(250,248,244,0.4);">Visit Us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span class="label" style="color:rgba(250,248,244,0.8);">scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED DRINKS -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What we pour</span>
+        <h2 class="heading-lg reveal" data-reveal>Four rituals, made slowly and served with care</h2>
+      </div>
+
+      <div class="grid grid--4">
+        <div class="drink-card reveal" data-reveal>
+          <div class="drink-card__media">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80" alt="Handcrafted espresso coffee">
+          </div>
+          <div class="drink-card__body">
+            <div class="drink-card__top">
+              <span class="drink-card__title">Coffee</span>
+              <span class="drink-card__price">from ₵35</span>
+            </div>
+            <p class="body-md">Single-origin beans, slow-poured and roasted for a rounded, gentle cup.</p>
+          </div>
+        </div>
+
+        <div class="drink-card reveal" data-reveal>
+          <div class="drink-card__media">
+            <img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=700&q=80" alt="Ceremonial grade matcha latte">
+          </div>
+          <div class="drink-card__body">
+            <div class="drink-card__top">
+              <span class="drink-card__title">Matcha</span>
+              <span class="drink-card__price">from ₵40</span>
+            </div>
+            <p class="body-md">Ceremonial grade, whisked to order — earthy, smooth and quietly energising.</p>
+          </div>
+        </div>
+
+        <div class="drink-card reveal" data-reveal>
+          <div class="drink-card__media">
+            <img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?auto=format&fit=crop&w=700&q=80" alt="Fresh fruit smoothie bowl">
+          </div>
+          <div class="drink-card__body">
+            <div class="drink-card__top">
+              <span class="drink-card__title">Smoothies</span>
+              <span class="drink-card__price">from ₵38</span>
+            </div>
+            <p class="body-md">Blended fruit, natural sweetness, nothing artificial — a bright reset.</p>
+          </div>
+        </div>
+
+        <div class="drink-card reveal" data-reveal>
+          <div class="drink-card__media">
+            <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=700&q=80" alt="Fresh cold-pressed juice">
+          </div>
+          <div class="drink-card__body">
+            <div class="drink-card__top">
+              <span class="drink-card__title">Fresh Juices</span>
+              <span class="drink-card__price">from ₵32</span>
+            </div>
+            <p class="body-md">Cold-pressed daily from fruit sourced around Accra — simple and honest.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE BRUNCH -->
+  <section class="section">
+    <div class="container">
+      <div class="split reveal" data-reveal>
+        <div class="split__media">
+          <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1000&q=80" alt="Signature brunch plate" style="border-radius: var(--radius-lg); width:100%; box-shadow: var(--shadow-soft);">
+        </div>
+        <div class="split__text">
+          <span class="eyebrow">Signature brunch</span>
+          <h2 class="heading-lg" style="margin-top:14px;">Brunch built for lingering, not rushing</h2>
+          <p class="body-lg" style="margin-top:18px;">Toasted sandwiches, soft egg dishes and street-inspired plates, plated simply and finished with fresh herbs. Best enjoyed slowly, with good company.</p>
+          <a href="#visit" class="btn btn-outline magnetic" style="margin-top:28px;">Reserve a Table</a>
+        </div>
+      </div>
+
+      <div class="split reverse reveal" data-reveal style="margin-top:120px;">
+        <div class="split__media">
+          <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1000&q=80" alt="Sandwiches and pastries" style="border-radius: var(--radius-lg); width:100%; box-shadow: var(--shadow-soft);">
+        </div>
+        <div class="split__text">
+          <span class="eyebrow">Street-style sandwiches</span>
+          <h2 class="heading-lg" style="margin-top:14px;">Familiar flavours, an Asian street twist</h2>
+          <p class="body-lg" style="margin-top:18px;">Crisp, warm and generously filled — our sandwiches borrow from Seoul and Tokyo street stalls, made fresh to order in our open kitchen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WELLNESS -->
+  <section class="section" id="wellness">
+    <div class="container">
+      <div class="wellness">
+        <div class="blob blob--sage" style="top:10%; left:-5%;"></div>
+        <div class="wellness__grid">
+          <div>
+            <span class="eyebrow">Wellness, quietly</span>
+            <h2 class="heading-lg" style="margin-top:14px;">Good ingredients make a good day</h2>
+            <p class="body-lg" style="margin-top:18px;">Everything at Aura starts with fresh, thoughtfully sourced ingredients — because how you feel matters as much as how it tastes.</p>
+
+            <div class="wellness__list">
+              <div class="wellness__item reveal" data-reveal>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11.5A8 8 0 004 10.5C4 17.5 12 22 12 22z"/></svg>
+                <div>
+                  <h4>Fresh, local ingredients</h4>
+                  <p class="body-md">Sourced daily from growers around Accra.</p>
+                </div>
+              </div>
+              <div class="wellness__item reveal" data-reveal>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/></svg>
+                <div>
+                  <h4>Ceremonial grade matcha</h4>
+                  <p class="body-md">Whisked to order, never pre-mixed.</p>
+                </div>
+              </div>
+              <div class="wellness__item reveal" data-reveal>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+                <div>
+                  <h4>Premium coffee beans</h4>
+                  <p class="body-md">Roasted in small batches for a gentler cup.</p>
+                </div>
+              </div>
+              <div class="wellness__item reveal" data-reveal>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8 6 6 9 6 13a6 6 0 0012 0c0-4-2-7-6-11z"/></svg>
+                <div>
+                  <h4>Natural fruit, always</h4>
+                  <p class="body-md">No syrups or concentrates in our juices.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=80" alt="Matcha wellness ingredients" style="border-radius: var(--radius-lg); width:100%; box-shadow: var(--shadow-soft);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery" style="overflow:hidden;">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">A look inside</span>
+        <h2 class="heading-lg reveal" data-reveal>Gallery</h2>
+      </div>
+    </div>
+    <div class="gallery-wrap">
+      <div class="gallery-track" id="galleryTrack">
+        <div class="gallery-item gallery-item--portrait">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Coffee pour">
+          <span class="gallery-item__label">Coffee</span>
+        </div>
+        <div class="gallery-item gallery-item--landscape">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Cafe interior">
+          <span class="gallery-item__label">Interior</span>
+        </div>
+        <div class="gallery-item gallery-item--portrait">
+          <img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80" alt="Matcha latte">
+          <span class="gallery-item__label">Matcha</span>
+        </div>
+        <div class="gallery-item gallery-item--landscape">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80" alt="Friends at cafe">
+          <span class="gallery-item__label">Friends</span>
+        </div>
+        <div class="gallery-item gallery-item--portrait">
+          <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=600&q=80" alt="Brunch plate">
+          <span class="gallery-item__label">Brunch</span>
+        </div>
+        <div class="gallery-item gallery-item--landscape">
+          <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80" alt="Lifestyle morning">
+          <span class="gallery-item__label">Lifestyle</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <span class="eyebrow">@aurastreetcafe</span>
+        <h2 class="heading-lg reveal" data-reveal>Follow along</h2>
+      </div>
+      <div class="insta-grid">
+        <div class="insta-item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=400&q=80" alt="Instagram post"></div>
+        <div class="insta-item"><img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=400&q=80" alt="Instagram post"></div>
+        <div class="insta-item"><img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=400&q=80" alt="Instagram post"></div>
+        <div class="insta-item"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=400&q=80" alt="Instagram post"></div>
+        <div class="insta-item"><img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?auto=format&fit=crop&w=400&q=80" alt="Instagram post"></div>
+      </div>
+      <div style="display:flex; justify-content:center; margin-top:40px;">
+        <a href="#" class="btn btn-outline magnetic">Follow Aura Street Cafe</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What people say</span>
+        <h2 class="heading-lg reveal" data-reveal>Loved by regulars</h2>
+      </div>
+      <div class="grid grid--3">
+        <div class="testimonial-card reveal" data-reveal>
+          <span class="testimonial-card__quote">"</span>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          </div>
+          <p class="body-md">My favourite spot to work from in the mornings. The matcha is the best in Accra, easily.</p>
+          <div class="testimonial-card__person">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Reviewer">
+            <div>
+              <strong>Ama K.</strong>
+              <span>East Legon</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" data-reveal>
+          <span class="testimonial-card__quote">"</span>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          </div>
+          <p class="body-md">Brunch here feels like a mini trip to Seoul. The space, the food, the playlist — all of it.</p>
+          <div class="testimonial-card__person">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Reviewer">
+            <div>
+              <strong>Kwabena O.</strong>
+              <span>Airport Residential</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" data-reveal>
+          <span class="testimonial-card__quote">"</span>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          </div>
+          <p class="body-md">Quiet, well-lit, great wifi and even better smoothies. My go-to for Saturday mornings.</p>
+          <div class="testimonial-card__person">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Reviewer">
+            <div>
+              <strong>Selasi A.</strong>
+              <span>Cantonments</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT US -->
+  <section class="section" id="visit">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Find us</span>
+        <h2 class="heading-lg reveal" data-reveal>Visit Aura Street Cafe</h2>
+      </div>
+      <div class="visit">
+        <div class="visit__info">
+          <div class="visit__row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <h4>Address</h4>
+              <p class="body-md">East Legon, Accra, Ghana</p>
+            </div>
+          </div>
+          <div class="visit__row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            <div>
+              <h4>Opening hours</h4>
+              <p class="body-md">Mon – Fri, 7am – 8pm<br>Sat – Sun, 8am – 9pm</p>
+            </div>
+          </div>
+          <div class="visit__row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.68 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <h4>Contact</h4>
+              <p class="body-md" id="contact">+233 20 000 0000<br>hello@aurastreetcafe.com</p>
+            </div>
+          </div>
+          <div class="visit__row" style="border-bottom:none; padding-bottom:0;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            <div>
+              <h4>Follow</h4>
+              <p class="body-md">@aurastreetcafe on Instagram &amp; TikTok</p>
+            </div>
+          </div>
+          <div class="visit__buttons">
+            <a href="#" class="btn btn-primary magnetic">Get Directions</a>
+            <a href="tel:+233200000000" class="btn btn-outline magnetic">Call Now</a>
+          </div>
+        </div>
+        <div class="visit__map">
+          <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=900&q=80" alt="Map placeholder of East Legon">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="final-cta">
+        <div class="final-cta__media">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80" alt="Coffee ritual">
+        </div>
+        <div class="final-cta__content">
+          <h2 class="display-2">Your next coffee ritual starts here.</h2>
+          <div class="final-cta__buttons">
+            <a href="#visit" class="btn btn-light magnetic">Visit Today</a>
+            <a href="#menu" class="btn btn-outline magnetic" style="color:#FAF8F4; border-color:rgba(250,248,244,0.5);">Explore Menu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__logo brand-logo">
+          <span class="brand-logo__word">aura</span>
+          <span class="brand-logo__tag">street cafe</span>
+        </div>
+        <p class="body-md">Asian street-style cafe · Wellness, coffee, brunch &amp; matcha in East Legon, Accra.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <div class="footer__links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#wellness">Wellness</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#visit">Visit</a>
+        </div>
+      </div>
+      <div>
+        <h5>Hours &amp; Address</h5>
+        <div class="footer__links">
+          <span>East Legon, Accra, Ghana</span>
+          <span>Mon–Fri 7am–8pm</span>
+          <span>Sat–Sun 8am–9pm</span>
+        </div>
+      </div>
+      <div>
+        <h5>Newsletter</h5>
+        <p class="body-md">Menu drops, matcha news &amp; weekend brunch specials.</p>
+        <form onsubmit="return false;">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Join</button>
+        </form>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Aura Street Cafe. All rights reserved.</span>
+      <span>East Legon, Accra, Ghana</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+<script src="js/cursor.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
